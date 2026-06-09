@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+*.pyc
+*.csv
+*.xlsx
+*.json
+.env
+raw_data/
+.ssh/
+.DS_Store
+Thumbs.db
