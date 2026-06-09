@@ -5,11 +5,8 @@ __pycache__/
 *.xlsx
 *.json
 .env
-<<<<<<< HEAD
 raw_data/
 .ssh/
 .DS_Store
 Thumbs.db
-=======
 raw_data/
->>>>>>> 17d574d6a27006c6b9e9299f3cc425f146db5928
