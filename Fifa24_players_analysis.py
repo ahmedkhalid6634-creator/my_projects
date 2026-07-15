@@ -6,7 +6,7 @@ from normalize import clean_text_column #to normalize and the names of the playe
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 #import file
-player_df=pd.read_csv('player_stats.csv',encoding='ISO-8859-1')
+player_df=pd.read_csv('raw_player_stats.csv',encoding='ISO-8859-1')
 #observing
 profile=dp.ProfileReport(player_df,title="Fifa analysis observation",html={"style":{"theme":"cosmo","full_width":True}},interactions={"targets":[]},correlations={"pearson":{"calculate":False},"spearman":{"calculate":True},"phi_k":{"calculate":True},},missing_diagrams={"bar":False,"matrix":False,"heatmap":False})
 profile.to_file("fifa_data_report.html")
